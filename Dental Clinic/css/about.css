@@ -1,0 +1,161 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'open sans';
+}
+
+.header {
+
+    background:#171783;    
+} 
+
+nav{
+    text-align: right;
+    padding: 30px;
+}
+
+nav > a {
+    color:#fff;
+    font-weight: 300 bold;
+    text-decoration: none;
+    margin-right: 10px;
+    text-shadow: 0px 1px 1px black;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+.contedor-principa {
+
+    width: 100%;
+}
+
+.titulo {
+
+    text-align:center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+h3 {
+
+    margin-left: 30px;
+    margin-bottom:10px;
+    margin-top: 20px;
+
+}
+
+.contenedor-p {
+
+    text-align: justify;
+    margin-bottom:10px;
+    margin-left:30px;
+    margin-right:40px;
+    text-indent: 1cm;
+}
+
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #ccc;
+}
+
+.titulo-final{
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
+
+@media screen and (max-width:500px){
+    
+    nav{
+        text-align: center;
+        padding: 10px;
+        padding-top:40px;
+        padding-bottom:40px;
+    }
+    
+    nav > a {
+        color:#fff;
+        font-weight: 300 bold;
+        text-decoration: none;
+        margin-right: 10px;
+        text-shadow: 0px 1px 1px black;
+    }
+
+
+    /* Footer */
+
+    .contenedor-footer{
+        flex-direction: column;
+        border: none;
+    }
+
+    .content-foo{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .content-foo h4{
+        border: none;
+    }
+
+    .content-foo p{
+        color: #ccc;
+        border-bottom: 1px solid #f2f2f2;
+        padding-bottom: 20px;
+    }
+
+    .titulo-final{
+        font-size: 20px;
+    }
+
+    h3 {
+
+        text-align:center;
+        margin-left: 0px;
+
+    }
+
+    .contenedor-p {
+        text-indent: 0cm;
+        margin-right:25px;
+    }
+
+    .titulo {
+
+        margin-bottom: -15px;
+
+    }
+}
